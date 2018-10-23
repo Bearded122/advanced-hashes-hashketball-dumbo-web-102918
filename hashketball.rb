@@ -173,7 +173,7 @@ end
 
 def player_by_number(player_number)
 
-  players.map { |n| player.fetch[:number] }[0]
-
+  players.map { |n| players.fetch[:number] }[0]
+binding.pry
 end
 player_by_number(33)
